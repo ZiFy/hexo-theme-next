@@ -102,8 +102,8 @@ footer:
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons:
   license: by-nc-sa
-  sidebar: false
-  post: false
+  sidebar: true
+  post: true
 
 
 # ---------------------------------------------------------------
@@ -279,7 +279,7 @@ excerpt_description: true
 # Please use <!-- more --> in the post to control excerpt accurately.
 auto_excerpt:
   enable: true
-  length: 300
+  length: 150
 
 # Read more button
 # If true, the read more button would be displayed in excerpt section
@@ -361,7 +361,7 @@ post_edit:
 mobile_layout_economy: false
 
 # Android Chrome header panel color ($brand-bg / $headband-bg => $black-deep).
-android_chrome_color: "#222"
+android_chrome_color: "#FD6C6C"
 
 # Custom Logo.
 # !!Only available for Default Scheme currently.
@@ -867,12 +867,12 @@ pace: true
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
 canvas_nest:
-  enable: true
-  onmobile: true # display on mobile or not
+  enable: false
+  onmobile: false # display on mobile or not
   color: '0,0,255' # RGB values, use ',' to separate
-  opacity: 0.5 # the opacity of line: 0~1
+  opacity: 0.7 # the opacity of line: 0~1
   zIndex: -1 # z-index property of the background
-  count: 99 # the number of lines
+  count: 50 # the number of lines
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
@@ -890,7 +890,7 @@ canvas_sphere: false
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300
   alpha: 0.6
   zIndex: -1
@@ -1063,4 +1063,4 @@ js: js
 images: images
 
 # Fireworks
-fireworks: true
+fireworks: false

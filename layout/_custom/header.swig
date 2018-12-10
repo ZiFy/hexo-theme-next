@@ -1,8 +1,8 @@
 
 <!-- 添加 全局背景 -->
-{% if theme.canvas_nest %}
+{% if theme.canvas_nest.enable %}
 <script 
-	type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99"
+	type="text/javascript"
  	src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js"></script>
 {% endif %}
 
